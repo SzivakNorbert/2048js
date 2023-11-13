@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048</title>
+
+    <link rel="icon" href="icons/_f8529f3c-97f1-4771-84d3-9c9716f15adc.jpg" type="icon">
+    <link rel="shortcut icon" href="icons/_f8529f3c-97f1-4771-84d3-9c9716f15adc.jpg" type="icon">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" charset="UTF-8">
+    </script>
+  </head>
+  <body>
+    <div class="score-with-result">
+      
+      
+      <div class="score-container">
+        <div class="score-title">score:</div>
+        <span id="score">0</span>
+      </div>
+      <div class="user-with-icon">
+        <div class="image">
+          <img src="/icons/person.png" class="icon" alt="player">
+        </div>
+          <div class="user"></div>
+
+        
+      </div>
+      
+
+    </div>
+    <div class="table">
+      
+      <div class="grid"></div>
+    </div>
+
+    <div class="reset" id="reset">
+      <button class="reset-button" onclick="reset()">Újra</button>
+      <button class="menu-button" onclick="menu()">Menü</button>
+    </div>
+  </body>
+</html>

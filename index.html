@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title class="title-text">2048 Login</title>
+
+       <link rel="icon" href="icons/_f8529f3c-97f1-4771-84d3-9c9716f15adc.jpg" type="icon">
+       <link rel="shortcut icon" href="icons/_f8529f3c-97f1-4771-84d3-9c9716f15adc.jpg" type="icon">
+
+       <link rel="stylesheet" href="loginstyle.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+       <link
+         href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+         rel="stylesheet"
+       />
+       
+
+</head>
+<body>
+       <h2>Jelentkezz be!</h2>
+       <form action="game.html" method="get">
+              <div>
+                     <label for="user-name">Felhasználónév:</label>
+                     <input type="text" id="user-name" name="user-name" required>
+              </div>
+              <div>
+                     <label for="password">Jelszó:</label>
+                     <input type="password" id="password" name="password" required>
+              </div>
+              <div class="buttons">
+                     <button type="submit" class="login-button">Bejelentkezés</button>
+                     <button type="button" class="register-menu-button" onclick="registration()" >Regisztráció</button>
+                     <button type="button" class="register-button" onclick="validatePassword()" >Regisztrálás</button>
+                     <button type="button" class="back-button" onclick="reload()" >Vissza</button>
+              </div>
+              <div class="game">
+                     <div class="login-resp">
+                            <a href="game.html" class="game-button">Játék</a>
+                     </div>
+                     <div class="reg-resp">
+
+                     </div>
+
+              </div>
+       </form>
+       <script src="login.js" charset="UTF-8"></script>
+</body>
+</html>

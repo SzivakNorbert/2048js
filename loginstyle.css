@@ -1,0 +1,93 @@
+html{
+       height: 100%;
+       width: 100%;
+       justify-content: center;
+       display: flex;
+}
+
+body {
+       font-family: "DotGothic16", sans-serif;
+       background-color: #f3f3f3;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       flex-wrap: wrap;
+       align-content: stretch;
+       justify-content: center;
+   }
+
+
+/*----------TEXT----------*/
+
+h2 {
+       color: #776e65;
+       font-size: 7vh;
+}
+
+label {
+       color: #776e65;
+}
+
+a {
+       font-family: "DotGothic16", sans-serif;
+}
+/*-----------------------*/
+
+
+/*---------FORM----------*/
+
+form {
+       background-color: #f3f3f3;
+       padding: 20px;
+       border: 2px solid #bbada0;
+       border-radius: 15px;
+       margin: 0 auto;
+       align-items: center;
+       justify-content: center;
+       
+}
+
+
+input[type="text"], input[type="password"] {
+       width: 100%;
+       padding: 10px;
+       margin: 5px 0;
+       border: 1px solid #ccc;
+       border-radius: 3px;
+       box-sizing: border-box;
+       font-family: "DotGothic16", sans-serif;
+}
+
+
+       /*---------BUTTONS----------*/
+
+       .buttons {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              
+       }
+       
+       button, .game-button {
+              background-color: #8f7a66;
+              color: #f9f6f2;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 3px;
+              cursor: pointer;
+              font-family: "DotGothic16", sans-serif;
+              margin: 7px;
+
+       }
+       
+       button:hover, .register-button:hover, .game-button:hover, .reset-button:hover {
+              background-color: #f9f6f2;
+              color: #8f7a66;
+       }
+       .register-button, .game-button{
+       text-decoration: none;
+       display: inline-block;
+       }
+       /*-----------------------*/
+/*-----------------------*/
