@@ -107,8 +107,4 @@ function login(){
     regMenuButton.style.display = 'none';
     backButton.style.display = 'block';
     gameButton.style.display = 'none';
-
-    
-    
    }
-   
